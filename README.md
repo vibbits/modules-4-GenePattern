@@ -10,7 +10,20 @@ $Nthreads = 4;
 You can, if desirable, replace the 4 by whatever you find appropriate. You can apply this change in the zip file before uploading or you can do it after uploading in the taskLib folder of GP.
 
 # List of modules
-* STAR.aligner  
-STAR.indexer  
+* **BCFtools.Call_variants**  
+uses BCFtools to compare mapped reads to a reference genome and call variants  
+You need to download samtools-1.6.tar.bz2 and bcftools-1.6.tar.bz2 from http://www.htslib.org, deploy them in the patches folder of GP and compile.
+* **BgzipAndTabixindex**  
+**TabixSearch**  
+facility to index and search files with read mappings or genome annotations  
+You need to download tabix-0.2.6.tar.bz2 from http://samtools.sourceforge.net, deploy it in the patches folder of GP and compile.
+* **BWA.mem**  
+interface to the BWA read to genome mapper, suited for mapping long reads used for variant analysis  
+You need to download bwa-0.7.15.tar.bz2 from http://bio-bwa.sourceforge.net, deploy it in the patches folder of GP and compile.
+* **DeTar**  
+**UnZip**  
+simple facilities to extract the data from a compressed archive or file, useful as part of a data analysis pipeline
+* **STAR.aligner**  
+**STAR.indexer**  
 interface to the STAR RNA-seq read to genome mapper. 
 You need to download STAR-2.5.2a.tar.gz or STAR-2.5.2b.tar.gz from http://github.com/alexdobin/STAR and deploy it in the patches folder of GP.
