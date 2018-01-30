@@ -23,6 +23,15 @@ You need to download bwa-0.7.15.tar.bz2 from http://bio-bwa.sourceforge.net, dep
 * **DeTar**  
 **UnZip**  
 simple facilities to extract the data from a compressed archive or file, useful as part of a data analysis pipeline
+* **GtfToBed**  
+simple facility to convert a GTF file into a BED file suitable as input to the RSeQC suite)
+* **HTSeq.Count**  
+interface to the HTseq RNA-seq mapped read counter  
+You need to download HTSeq-0.9.1.tar.gz from http://htseq.readthedocs.io and follow the instructions on the site for how to install the auxilary libraries and install HTSeq in your Python installation.
+* **Kallisto.aligner**  
+**Kallisto.indexer**  
+interface to the Kallisto RNA-seq read to transcriptome aligner  
+You need to download kallisto_linux-v0.43.1.tar.gz from https://pachterlab.github.io/kallisto and deploy it in the patches folder of GP.
 * **STAR.aligner**  
 **STAR.indexer**  
 interface to the STAR RNA-seq read to genome mapper. 
