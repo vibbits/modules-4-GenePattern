@@ -32,6 +32,11 @@ You need to download HTSeq-0.9.1.tar.gz from http://htseq.readthedocs.io and fol
 **Kallisto.indexer**  
 interface to the Kallisto RNA-seq read to transcriptome aligner  
 You need to download kallisto_linux-v0.43.1.tar.gz from https://pachterlab.github.io/kallisto and deploy it in the patches folder of GP.
+* **Picard.CollectMultiplemetrics**  
+**Picard.MarkDuplicates**  
+**Picard.SortSam**  
+interface to some tools of the Picard suite for SAM/BAM file analysis and manipulation (tools not available or not so up-to-date as those in the standard GP distribution)  
+You need to download picard.jar (version 2.10.10) from http://broadinstitute.github.io/picard and put it in the patches folder of GP, preferably in a subfolder picard_2.10.10.
 * **STAR.aligner**  
 **STAR.indexer**  
 interface to the STAR RNA-seq read to genome mapper. 
