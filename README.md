@@ -37,6 +37,24 @@ You need to download kallisto_linux-v0.43.1.tar.gz from https://pachterlab.githu
 **Picard.SortSam**  
 interface to some tools of the Picard suite for SAM/BAM file analysis and manipulation (tools not available or not so up-to-date in the standard GP distribution)  
 You need to download picard.jar (version 2.10.10) from http://broadinstitute.github.io/picard and put it in the patches folder of GP, preferably in a subfolder picard_2.10.10.
+* **Qualimap.BamQC**  
+**Qualimap.MultisampleBamQC**  
+noninteractive-interface to the Qualimap tool for testing the quality of mapping data in BAM format  
+You need to download qualimap_v2.2.1.zip from http://qualimap.bioinfo.cipf.es and deploy it in the patches folder of GP.
+* **RSeQC.BamStat**  
+**RSeQC.GeneBodyCoverage**  
+**RSeQC.InferExperiment*  
+**RSeQC.InnerDistance**  
+**RSeQC.JunctionSaturation**  
+**RSeQC.ReadDistribution**  
+**RSeQC.ReadDuplication**  
+interface to some tools of the RSeQC suite for testing the quality of mapping data in SAM/BAM format  
+You can install it with the command :  
+pip install RSeQC  
+You must add to the resources/genepattern.properties file of your GP a line  
+RSEQC=/usr/bin  
+and restart the server.  
+To profit from the graphical output you need R with support for PNG and JPEG graphics.
 * **STAR.aligner**  
 **STAR.indexer**  
 interface to the STAR RNA-seq read to genome mapper. 
