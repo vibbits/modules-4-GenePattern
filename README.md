@@ -43,7 +43,7 @@ noninteractive-interface to the Qualimap tool for testing the quality of mapping
 You need to download qualimap_v2.2.1.zip from http://qualimap.bioinfo.cipf.es and deploy it in the patches folder of GP.
 * **RSeQC.BamStat**  
 **RSeQC.GeneBodyCoverage**  
-**RSeQC.InferExperiment*  
+**RSeQC.InferExperiment**  
 **RSeQC.InnerDistance**  
 **RSeQC.JunctionSaturation**  
 **RSeQC.ReadDistribution**  
