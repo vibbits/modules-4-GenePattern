@@ -56,7 +56,7 @@ RSEQC=/usr/bin
 and restart the server.  
 To profit from the graphical output you need R with support for PNG and JPEG graphics.
 * **Samtools.SamView**  
-an interface to a tool from the Samtools suite, allows to extract data from SAM/BAM file in a variety of ways  
+an interface to a tool from the Samtools suite, allows to extract data from a SAM/BAM file in a variety of ways  
 You need to download samtools-1.6.tar.bz2 from http://www.htslib.org, deploy it in the patches folder of GP and compile.
 * **STAR.aligner**  
 **STAR.indexer**  
@@ -69,4 +69,4 @@ interface to the VarScan suite to compare mappings to a reference genome and cal
 You need to download VarScan.v2.4.3.jar from http://dkoboldt.github.io/varscan and put it in the patches folder of GP. You also need to download samtools-1.6.tar.bz2 and bcftools-1.6.tar.bz2 from http://www.htslib.org, deploy them in the patches folder of GP and compile.
 * **VCF_intersect**  
 an interface to a tool from the VCFtools suite for VCF file analysis and manipulation, finds the interscetion between two VCF files  
-You need to download vcftools-vcftools-v0.1.15-5-gea875e2.tar.gz from http://vcftools.github.io, deploy it in the patches folder of GP and compile (follow the instructions in theincluded README.md file). You need also to download tabix-0.2.6.tar.bz2 from http://samtools.sourceforge.net, deploy it in the patches folder of GP and compile.
+You need to download vcftools-vcftools-v0.1.15-5-gea875e2.tar.gz from http://vcftools.github.io, deploy it in the patches folder of GP and compile (follow the instructions in the included README.md file). You need also to download tabix-0.2.6.tar.bz2 from http://samtools.sourceforge.net, deploy it in the patches folder of GP and compile.
