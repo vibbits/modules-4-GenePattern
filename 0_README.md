@@ -23,6 +23,9 @@ You need to download bwa-0.7.15.tar.bz2 from http://bio-bwa.sourceforge.net, dep
 * **DeTar**  
 **UnZip**  
 simple facilities to extract the data from a compressed archive or file, useful as part of a data analysis pipeline
+* **FastQC**  
+noninteractive-interface to the FastQC tool for testing the quality of sequencing reads  
+You need to download fastqc_v0.11.7.zip from http://www.bioinformatics.babraham.ac.uk/projects/fastqc and deploy it in the patches folder of GP ; make sure .../patches/FastQC/fastqc is executable by the user that runs GP.
 * **GtfToBed**  
 simple facility to convert a GTF file into a BED file suitable as input to the RSeQC suite
 * **HTSeq.Count**  
