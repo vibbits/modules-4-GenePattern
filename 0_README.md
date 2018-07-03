@@ -19,7 +19,7 @@ facility to index and search files with read mappings or genome annotations
 You need to download tabix-0.2.6.tar.bz2 from http://samtools.sourceforge.net, deploy it in the patches folder of GP and compile.
 * **BWA.mem**  
 interface to the BWA read to genome mapper, suited for mapping long reads used for variant analysis  
-You need to download bwa-0.7.15.tar.bz2 from http://bio-bwa.sourceforge.net, deploy it in the patches folder of GP and compile.
+You need to download bwa-0.7.17.tar.bz2 from http://bio-bwa.sourceforge.net, deploy it in the patches folder of GP and compile.
 * **DeTar**  
 **UnZip**  
 simple facilities to extract the data from a compressed archive or file, useful as part of a data analysis pipeline
@@ -34,7 +34,7 @@ You need to download HTSeq-0.9.1.tar.gz from http://htseq.readthedocs.io and fol
 * **Kallisto.aligner**  
 **Kallisto.indexer**  
 interface to the Kallisto RNA-seq read to transcriptome aligner  
-You need to download kallisto_linux-v0.43.1.tar.gz from https://pachterlab.github.io/kallisto and deploy it in the patches folder of GP.
+You need to download kallisto_linux-v0.44.0.tar.gz from https://pachterlab.github.io/kallisto and deploy it in the patches folder of GP.
 * **Picard.CollectMultipleMetrics**  
 **Picard.MarkDuplicates**  
 **Picard.SortSam**  
@@ -42,6 +42,7 @@ interface to some tools of the Picard suite for SAM/BAM file analysis and manipu
 You need to download picard.jar (version 2.10.10) from http://broadinstitute.github.io/picard and put it in the patches folder of GP, preferably in a subfolder picard_2.10.10.
 * **Qualimap.BamQC**  
 **Qualimap.MultisampleBamQC**  
+**Qualimap.RnaSeqQC**  
 noninteractive-interface to the Qualimap tool for testing the quality of mapping data in BAM format  
 You need to download qualimap_v2.2.1.zip from http://qualimap.bioinfo.cipf.es and deploy it in the patches folder of GP.
 * **RSeQC.BamStat**  
