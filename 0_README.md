@@ -37,7 +37,7 @@ HTSEQ=/usr/bin/htseq-count
 and restart the server.
 * **Kallisto.aligner**  
 **Kallisto.indexer**  
-**Kallisto.SingleCell2BUS
+**Kallisto.SingleCell2BUS**  
 interface to the Kallisto RNA-seq read to transcriptome mapper  
 You need to download kallisto_linux-v0.46.0.tar.gz from https://pachterlab.github.io/kallisto and deploy it in the patches folder of GP.
 * **Picard.BuildBamIndex**  
